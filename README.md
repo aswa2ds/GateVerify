@@ -56,3 +56,14 @@ GateVerify 是一个用于管理门禁系统的模拟程序，其中包含对身
         + ##### void setForeGround(ColorEnum)
             可根据输入的颜色，更改命令行字体颜色，在print函数中调用
 + Simulate
+    + #### Class Introduction 
+        用于在信息录入完毕后，根据输入的信息，进行模拟并输出模拟结果，
+    + #### Public Member Functions
+        + ##### void doSimulate(InOutInfo, FaceManager, CardManager)
+            该函数实现了模拟输出的功能，根据时间顺序，利用faceManager中的人脸信息判断是否能够刷脸，利用cardManager中的身份卡信息判断是否能够刷卡。
+    + #### Private Member Variables
+        + ##### (string)teacher
+        + ##### (string)student
+            两个变量用于确定当前要进出系楼的人的身份，判断是否采取刷脸的方式
+        + ##### (OutputColorConfig)outColor
+            用于配置控制台字体颜色
