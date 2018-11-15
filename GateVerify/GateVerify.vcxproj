@@ -33,6 +33,7 @@
     <ClInclude Include="GateManager.h" />
     <ClInclude Include="InOutInfo.h" />
     <ClInclude Include="OutputColorConfig.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Simulate.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

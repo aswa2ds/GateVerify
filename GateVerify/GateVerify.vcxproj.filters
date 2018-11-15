@@ -24,9 +24,6 @@
     <ClCompile Include="CardManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="OutputColorConfig.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="FaceManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -34,6 +31,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Simulate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputColorConfig.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,6 +54,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Simulate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
